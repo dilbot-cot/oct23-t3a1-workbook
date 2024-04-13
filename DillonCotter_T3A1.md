@@ -15,4 +15,25 @@ You will first have to decide on which system to use, e.g. Git.
 9. All developers should ensure to clone main/master followed by branching before any work starts, to ensure they are running the most up to date codebase.  
 
 Other considerations are to have clear lines of communcation amongst the team at all times, and that each commit has meaningful messages for the changes made, with developers also responsible for updating documentation.  
-It is also good practice to incorporate Backup and recovery methods to prvent potential data loss and support a disaster recovery plan.
+It is also good practice to incorporate Backup and recovery methods to prvent potential data loss and support a disaster recovery plan.  
+
+### 2. What are the most important aspects of quality software?  
+1. Functionality  
+Referring to how well the software meets the needs it was designed for.  This includes suitability, accuracy, compliance and security.  
+
+2. Reliability  
+How stable and dependable is the software. It includes aspects like maturity, fault tolerance, and recoverability in the event of crash or errors.  
+
+3. Usability  
+How easy and pleasant the software is to use. This may be understandability, learnability, operability and attractiveness.  
+
+4. Efficiency  
+This relates to the software's performance and resource usage. It includes time behaviour and resource utilisation.  
+
+5. Maintainability  
+How easy is it to modify and update the software.  This may encompas modularity, reusability, changeability and testability.  
+
+6. Portability 
+How easy is it for software to transfer from one environemtn to another. This could be installability and replaceability, and how easy it is to run on various platforms.  
+
+*Reference: [Turing Blog Post](https://www.turing.com/blog/software-quality-assurance-and-its-importance/)*
