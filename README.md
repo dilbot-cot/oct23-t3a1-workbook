@@ -36,4 +36,26 @@ How easy is it to modify and update the software.  This may encompas modularity,
 6. Portability 
 How easy is it for software to transfer from one environemtn to another. This could be installability and replaceability, and how easy it is to run on various platforms.  
 
-*Reference: [Turing Blog Post](https://www.turing.com/blog/software-quality-assurance-and-its-importance/)*
+*Reference: [Turing Blog Post](https://www.turing.com/blog/software-quality-assurance-and-its-importance/)*  
+
+### 3. Outline a standard high level structure for a MERN stack application and explain the components  
+
+A MERN stack consists of four components:
+- <strong>M</strong>ongoDB,
+- <strong>E</strong>xpress.js,
+- <strong>R</strong>eact.js, and
+- <strong>N</strong>ode.js
+
+<strong>1. MongoDB: </strong> is a NoSQL database that stores data in flexibile JSON-like documents, and is used for the application's data storage.  
+This Database is schema-less, meaning the data structure can be altered over time.  
+<strong>2. Express.js: </strong>is a web application framework for Node.js. It is used to build the backend of the application, handling HTTP requests and responses, simplifying the server-side development by providing a large set of features for web and mobile apps.  
+<strong>3. React.js: </strong>is a JavaScript library for building user interfaces, primarily for front-end. This allows developers to create large web apps that can update a data without needing to reload the page. Mostly this can be used to build UI components, making the code more readable and maintainable.
+<strong>4. Node.js: </strong>is a JavaScript runtime allowing execution of JavaScript code on the server side. With Node, JavaScript can run on both server and client side, leading to a more consolidated development process.
+
+Front-end is built with React.js, which communicates to the backend through HTTP requests.  
+Back-end server is setup using Node.js with Express.js handling and responding to client requests.  
+MongoDB serves as the database, accessed by the backend to store and retrieve application data.
+
+This is considered a 'Full-stack' solution.
+
+*Reference: [MERN Stack Explained](https://www.mongodb.com/mern-stack)*
