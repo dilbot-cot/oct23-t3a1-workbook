@@ -59,3 +59,22 @@ MongoDB serves as the database, accessed by the backend to store and retrieve ap
 This is considered a 'Full-stack' solution.
 
 *Reference: [MERN Stack Explained](https://www.mongodb.com/mern-stack)*
+
+### A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?  
+
+A Project team would need to be made up of Technical skills and Business skills (soft skills)
+<b>Technical Skills</b>
+1. Web Development Fundamentals: An understanding of HTML, CSS and JavaScript, and the concept of responsive design to ensure a website works on various screen sizes and devices.  
+2. Back-end Development: Proficiency with a server-side language (EG. Node.js, Python etc) and frameworks (EG. Express.js or Django) and database management skills, including knowledge of SQL or NoSQL databases (EG. PostgreSQL or MongoDB)
+3. Front-end Development: Experience with front-end libraries like React.js or Angular. Knowledge of client-side technologies and frameworks.  
+4. Version control: Familiarity with version/source control systems like Git, for tracking changes and collaboration.  
+5. Web Hosting and Deployment: Understanding of web hosting services and deployment processes. Knowledge of domain registration and DNS management.  
+6. Security: Awareness of web security pracictes to protect the site and its users.  
+7. SEO and Accessibility: A basic understanding of Serach Engine Optimisation to improve visibility and Knowledge of web accessibility standards to make the website usable for people with screen readers.  
+
+<b>Soft Skills</b>  
+1. Communication: Ability to communicate with team members, and creating/using  readable documenation.  
+2. Collaboration: Openness to feedback and adaptability to change.  
+3. Project Management: Working on prioritisation and familitarity with project management tools and methadologies (EG. Agile).  
+4. Business Requirements: Ability to understand/interpret the business needs of the client into technical requirements.  
+5. User Experience and User Interface Design: Understanding the principles of UX/UI design to create an appealing website.
