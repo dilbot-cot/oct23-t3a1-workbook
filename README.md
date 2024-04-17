@@ -60,7 +60,7 @@ This is considered a 'Full-stack' solution.
 
 *Reference: [MERN Stack Explained](https://www.mongodb.com/mern-stack)*
 
-### A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?  
+### 4. A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?  
 
 A Project team would need to be made up of Technical skills and Business skills (soft skills)
 <b>Technical Skills</b>
@@ -77,4 +77,16 @@ A Project team would need to be made up of Technical skills and Business skills 
 2. Collaboration: Openness to feedback and adaptability to change.  
 3. Project Management: Working on prioritisation and familitarity with project management tools and methadologies (EG. Agile).  
 4. Business Requirements: Ability to understand/interpret the business needs of the client into technical requirements.  
-5. User Experience and User Interface Design: Understanding the principles of UX/UI design to create an appealing website.
+5. User Experience and User Interface Design: Understanding the principles of UX/UI design to create an appealing website.  
+
+### 5. With reference to one of your own projects, discuss what knowledge or skills were required to complete your project, and to overcome challenges
+
+<strong>Flask API project</strong>
+- Backend Development: Proficient knowledge of Python and the Flask framework was essential for building the application's logic.
+- Database Management: A thorough understanding of relational databases, specifically PostgreSQL, and ORM tools like SQLAlchemy, was crucial for efficient data handling.
+- API design: Skills in creating and managing various API endpoints were necessary for effective data retrieval and manipulation.
+- Version control and documentation: Utilizing Git for version control and maintaining clear documentation in the README file were key practices.
+- Security and Authentication: Implementing JWT for secure authentication and session management was vital to ensure user data integrity and privacy.
+- Application configuration: Effective management of the application through configuration files streamlined various environmental settings.
+- Dependency Management: Proper understanding and management of project dependencies, as listed in the requirements.txt, ensured smooth setup and deployment processes.
+- Application architecture: Carefully structuring the application into models, controllers, and various components facilitated a modular and maintainable codebase.
