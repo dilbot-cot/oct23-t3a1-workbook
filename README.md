@@ -89,4 +89,26 @@ A Project team would need to be made up of Technical skills and Business skills 
 - Security and Authentication: Implementing JWT for secure authentication and session management was vital to ensure user data integrity and privacy.
 - Application configuration: Effective management of the application through configuration files streamlined various environmental settings.
 - Dependency Management: Proper understanding and management of project dependencies, as listed in the requirements.txt, ensured smooth setup and deployment processes.
-- Application architecture: Carefully structuring the application into models, controllers, and various components facilitated a modular and maintainable codebase.
+- Application architecture: Carefully structuring the application into models, controllers, and various components facilitated a modular and maintainable codebase.  
+
+### 6. With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project, and suggest changes or improvements for future projects of a similar nature
+
+<strong>Flask API Project</strong>
+
+While my theoretical knowledge and basic skills were adequate, the practical implementation highlighted several areas for improvement:
+
+- Proper Documentation and Project Management: Initially, insufficient planning led to challenges in feature implementation and code stability. Future Improvement: Adopting Agile methodologies with defined sprints and checkpoints will ensure better project tracking and flexibility in managing changes.
+- Data Validation and Sanitization: Validation was primarily conducted through controllers using conditional statements, which limited thoroughness:
+EG. 
+```
+    # validate password complexity
+    password_pattern = r"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+    if not re.match(password_pattern, password):
+        return jsonify({
+            "error": "Password must be at least 8 characters long and include at least 1 uppercase letter, 1 lowercase letter, 1 number, and 1 special character"
+        }), 400
+```  
+
+- Future Improvement: Integrating validation logic into the data models would standardize data integrity checks and offload responsibility from the controllers, enhancing security and maintainability.
+- API Endpoint Expansion: The application's limited endpoint range restricted functionality, particularly in aggregating data by categories such as genre or director.
+Future Improvement: Designing more specific endpoints, such as /genres/<id>/tvshows, would improve data accessibility and application versatility by providing users with more tailored information retrieval options.
