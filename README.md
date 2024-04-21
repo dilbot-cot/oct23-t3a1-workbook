@@ -580,5 +580,4 @@ for (model of models) {
 }
 ```
 
-<i>References:  
-- [MDN Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+<i>References: [MDN Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)</i>
